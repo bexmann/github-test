@@ -5,4 +5,5 @@ basic.forever(function () {
     basic.clearScreen()
     basic.turnRgbLedOff()
     basic.pause(5000)
+    basic.setLedColor(0xffff00)
 })
